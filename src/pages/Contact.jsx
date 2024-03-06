@@ -37,7 +37,7 @@ const Contact = () => {
         name="contactr" 
        method="POST" 
        data-netlify="true" 
-       action="https://kirti-mahadane-portfolio-24.netlify.app/Contact/?success=true" 
+       action="/contact" 
        sx={{marginTop:"30px", textAlign:"center", 
       mx:"30px", maxWidth:"900px", width:"100%", display:"flex", justifyContent:"center" , flexDirection:"column", alignItems:"center",boxSizing:"border-box"}}>
         <input type="hidden" name="contactr" value="contactr" />
