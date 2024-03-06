@@ -1,0 +1,104 @@
+
+html{
+  font-size: 18px;
+  font-family: 'poppins';
+}
+body{
+  width: 100%;
+min-height: 100vh;
+color:#222;
+background-color: aliceblue;
+overflow-x: hidden;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+  color:inherit;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.br{
+  border-radius: 100%;
+}
+.br:hover{
+  animation: border-anime 2s infinite;
+  }
+@keyframes border-anime {
+0%{
+  border:5px solid orangered;
+
+}
+50%{
+  border: 5px solid #222;
+}
+100%{
+  border: none;
+}
+}
+.br-pr{
+  padding: 10px;
+}
+.br-pr:hover{
+  animation: border-pr-anime 2s alternate-reverse;
+}
+@keyframes border-pr-anime {
+  0%{
+    border:5px solid #222;
+  
+  }
+  50%{
+    border: 5px solid orangered;
+  }
+  100%{
+    border: none;
+  }
+  }
+  
+.home-bg{
+  position: relative;
+  margin-top:50px; 
+  background: url("https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_1280.jpg");
+background-size: cover;
+max-width: 100%;
+width: 100% !important;
+min-height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+.home-text{
+ position: absolute;
+ width: 100%;
+ top:50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding: 20px;
+
+  border-radius: 10px;
+  
+}
+#message{
+  max-width: 600px;
+  width: 600px;
+  margin: 30px auto;
+}
+.footer-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #222;
+  color:#fff;
+  text-align: center;
+  
+
+}
