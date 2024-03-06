@@ -37,7 +37,7 @@ const Contact = () => {
         name="contactr" 
        method="POST" 
        data-netlify="true" 
-       action="/contact/?success=true" 
+       action="/Contact/?success=true" 
        sx={{marginTop:"30px", textAlign:"center", 
       mx:"30px", maxWidth:"900px", width:"100%", display:"flex", justifyContent:"center" , flexDirection:"column", alignItems:"center",boxSizing:"border-box"}}>
         <input type="hidden" name="contactr" value="contactr" />
